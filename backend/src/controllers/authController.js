@@ -1,11 +1,6 @@
-import User from "/Users/new pc/Desktop/anime-watch-tracker/backend/src/models/Users.js"
+import User from "../models/Users.js"
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import express from "express"
-
-
-const router = express.Router(); 
-router.get("")
 //Register a new user
 export const register = async (req, res) => {
     try {
